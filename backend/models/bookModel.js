@@ -6,6 +6,7 @@ const bookSchema = new Schema(
   {
     cover: {
       type: String,
+      required : true,
     },
     title: {
       type: String,
