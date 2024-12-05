@@ -4,10 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "soft-cream": "#EEEEEE",
-        "vibrant-orange": "#F97300",
-        "deep-brown": "#3E3232",
-        "deep-blue": "#31363F",
+        "background-black": "#000000",
+        "highlight-yellow": "#FFD900",
+        "light-black": "#1D1D1D",
       },
     },
   },

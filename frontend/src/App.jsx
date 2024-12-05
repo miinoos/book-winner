@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App bg-soft-cream min-h-screen text-deep-brown">
+    <div className="App text-white bg-background-black min-h-screen">
       <BrowserRouter>
         <Navigation />
         <div className="pages">

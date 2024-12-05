@@ -1,11 +1,8 @@
 const BookDetails = ({ book }) => {
   return (
-    <div className="container relative">
-      {/* <h1 className="pl-10 p-5 font-medium text-2xl">
-        Community Boook Reviews
-      </h1> */}
+    <div>
       <div>
-        <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
+        <div className="flex flex-col items-center bg-light-black rounded-lg shadow md:flex-row max-w-md">
           {book.cover && (
             <img
               className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
